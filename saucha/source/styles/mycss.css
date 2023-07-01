@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    background-color: #FEE5B3;
+}
+
+.vid-fon {
+    color: #FEE5B3;
+}
+
+header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: #FEE5B3;
+}
+
+.navbar-nav .nav-link.active {
+    color: #DA9F56
+}
+
+.navbar-brand img {
+    width: 55px;
+}
+
+.navbar-toggler {
+    background-color: #FEE5B3;
+}
+
+.nav-mystyle {
+    background-color: #784D46;
+}
+
+.sidebar {
+    
+    background: #ffffff00;
+}
+
+.card {
+    background: #e39f953c;
+    color: rgb(0, 0, 0);
+}
+
+.list-group  {
+    --bs-list-group-bg:#ffffff98;
+}
+
+.center-card {
+    margin-left: 5rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 1.1em;
+}
+
+.fot-text2 {
+    color: #707070c5;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+      
+}
+
+.btn-primary {
+    background-color:#ffffff9d;
+    border-color: #E39F95;
+    --bs-btn-hover-bg: #784D46;
+    --bs-btn-hover-border-color: #784D46;
+    --bs-btn-active-bg: #784D46;
+    --bs-btn-active-border-color: #784D46;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #DA9F56;
+}
+
+.footer-text p {
+    color: #ffffff94;
+}
+
+.text-down {
+    margin-top: 2rem;
+}
+
+.text-down2 {
+    margin-top: 2rem;
+}
+
+footer,
+.btn-outline-primary {
+    background: #784D46;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.colon-mystyle {
+    background-color: #E39F95;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.png-photo {
+    display: flex;
+}
+
+.slide-text {
+    margin-top: 6rem;
+}
+
+.call-anim {
+    animation: myAnim 6s ease 1s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 0;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
